@@ -37,9 +37,7 @@ body{
     align-items: center;
     padding: 42px 0;
 }
-.navbar_logo{
 
-}
 .nav{
     display: flex;
   gap: 50px;
