@@ -1,0 +1,143 @@
+@import url('https://fonts.googleapis.com/css2?family=Gelasio:wght@700&family=Roboto+Flex:opsz,wght@8..144,400;8..144,500&family=Roboto:wght@400;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Gelasio:wght@500;700&family=Roboto+Flex:opsz,wght@8..144,400;8..144,500&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    font-style:normal;
+    line-height: 160%;
+}
+.wrapper{
+    overflow: hidden;
+    min-width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.container{
+    max-width: 71.875rem;
+    margin: 0 auto;
+    padding: 0 10px;
+}
+.header{
+    background: url("../img/bg1.png") no-repeat;
+    background-size:cover;
+    color: white;
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 42px 0;
+}
+.navbar_logo{
+
+}
+.nav{
+    display: flex;
+  gap: 50px;
+}
+.nav_link {
+text-decoration: none;
+color: white;
+line-height: 150%;
+}
+.nav_link:hover{
+    color: rgb(255, 0, 0);
+    transition: 0.5s;
+}
+.btn{
+    background: #C9453B;
+    border-radius: 5px;
+    font-size: 16px;
+    line-height: 150%;
+    color: rgb(255, 255, 255);
+    border: none;
+}
+.navbar_btn{
+  padding: 14px 35px;
+}
+.first_btn{
+    padding: 17px 46px;
+}
+.btn:hover{
+    background: rgb(40, 110, 103);
+    transition: 0.5s;
+    cursor: pointer;
+    color:black;
+}
+.first{
+    padding: 170px 0 244px;
+}
+
+.first-block_title{
+    font-size: 65px;
+    font-family:'Gelasio', sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    line-height: 120%; 
+}
+.first-block_text{
+    max-width: 458px;
+  margin: 30px 0 40px 0;
+    line-height: 160%;
+}
+.hamburger{
+    display: none;
+}
+
+
+/* ------blog------- */
+.blog_0{
+    text-align: center;
+    padding: 140px 0 50px 0;
+}
+.blog_0_title{
+    font-family: 'Gelasio';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 43px;
+    line-height: 140%;
+    margin-bottom: 20px;
+}
+/* ----blog----- */
+.cards{
+    display: flex;
+    gap: 25px;
+    flex-wrap: wrap;
+    justify-content: center;
+
+}
+
+.card{
+max-width: 360px;
+text-align: center;
+background: #FFFFFF;
+border: 1px solid rgba(0, 0, 0, 0.1);
+border-radius: 10px;
+}
+.card:hover{
+    box-shadow: 0px 6px 35px rgba(0, 0, 0, 0.08);
+}
+.card_img{
+    max-width: 100%;
+}
+.card_title{
+margin-top: 35px;
+font-family: 'Gelasio';
+font-style: normal;
+font-weight: 500;
+font-size: 24px;
+line-height: 150%;
+}
+.card_text{
+    margin: 10px 0 33px 0;
+}
+/* ----cards--------- */

@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/hamburgeer.css">
+    <link rel="stylesheet" href="css/stile.css">
+    <link rel="stylesheet" href="css/media.css">
+</head>
+
+<body>
+    <div class="wrapper">
+        <header class="header">
+            <div class="container">
+
+
+                <div class="navbar">
+
+                    <div class="navbar_logo">Trevland</div>
+
+                    <nav class="nav navbar_nav">
+                        <a class="nav_link" href="#">Home</a>
+                        <a class="nav_link" href="#">Location</a>
+                        <a class="nav_link" href="#">Blog</a>
+                        <a class="nav_link" href="#">About</a>
+                        <a class="nav_link" href="#">Contact</a>
+                    </nav>
+
+                    <button class="btn navbar_btn ">Booking now</button>
+
+                    <button class="hamburger hamburger--collapse" type="button">
+                        <span class="hamburger-box">
+                            <span class="hamburger-inner"></span>
+                        </span>
+                    </button>
+
+
+                </div>
+
+
+
+
+                <div class="first">
+                    <h1 class="first-block_title">Railtrips To Here, <br>
+                        There And Everywhere!</h1>
+                    <p class="first-block_text">We all wish to start our year the best way possible and also according
+                        to a
+                        common belief if you have a great start to your.</p>
+                    <button class="btn first_btn ">Explore more</button>
+                </div>
+            </div>
+        </header>
+
+        <!-- 111111 -->
+
+
+        <div class="container">
+            <div class="blog_0">
+                <h3 class="blog_0_title">Popular Location</h3>
+                <div class="blog_0_text">For every one of us, travel came first. We ' ve spent years living as nomads,
+                    pioneers, and <br> voyagers— from island hopping in the</div>
+            </div>
+            <div class="cards">
+                <div class="card">
+                    <img src="img/image1.png" alt="" class="card_img">
+                    <h4 class="card_title">Istanbul, Turkey </h4>
+                    <p class="card_text">Istanbul is a major city in Turkey that straddles Europe. </p>
+                </div>
+                <div class="card">
+                    <img src="img/image2.png" alt="" class="card_img">
+                    <h4 class="card_title">Kuala Lumpur, malaysia</h4>
+                    <p class="card_text">A 272-step long trek leads you to <br> this century. </p>
+                </div>
+                <div class="card">
+                    <img src="img/image3.png" alt="" class="card_img">
+                    <h4 class="card_title">Seoul, South Korea</h4>
+                    <p class="card_text">South Korea officially the Republic of <br> Korea is a country in East Asia.
+                    </p>
+                </div>
+
+            </div>
+        </div>
+        <!-- ----22222222222---- -->
+        <div class="seconde">
+
+        </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    </div>
+
+    <script>
+        // Look for .hamburger
+        var hamburger = document.querySelector(".hamburger");
+
+        var nav = document.querySelector(".nav");
+        // On click
+        hamburger.addEventListener("click", function () {
+            // Toggle class "is-active"
+            hamburger.classList.toggle("is-active");
+
+            nav.classList.toggle("is-active");
+            // Do something else, like open/close menu
+        });
+    </script>
+</body>
+
+</html>
