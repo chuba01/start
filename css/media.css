@@ -108,4 +108,33 @@
             line-height: 110%;
         }
 }
-/* ------------------------------------ */
+/* --------------------canada  img--------------------- */
+
+@media (max-width:1111px){
+    .ob{
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+}
+@media (max-width:730px){
+    body{
+        font-size: 16px;
+        line-height: 140%;
+    }
+}
+
+@media (max-width:500px){
+    .flex_cards{
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .canada_title{
+            margin: 15px 0 5px 0;
+    }
+    body{
+        font-size: 14px;
+        line-height: 120%;
+    }
+}
+/* ------footer-------------- */
