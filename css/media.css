@@ -9,6 +9,27 @@
     .first{
         padding: 100px 0 165px;
     }
+    .blog_0{
+       
+        padding: 80px 0 50px 0;
+    }
+    .second_title{
+    
+        font-size: 36px;
+        margin-bottom: 15px;
+    }
+
+    .second_text{
+        font-size: 16px;
+    }
+
+.cols{
+    flex-wrap: wrap;
+    gap: 30px;
+}
+
+
+
 }
 
 @media (max-width:700px){
@@ -45,11 +66,47 @@
 .nav.is-active{
     transform: translateX(0);
 }
+
+.blog_0{
+       
+    padding: 40px 0 40px 0;
+}
+.blog_0_title{
+    font-size: 28px;
+ margin-bottom: 10px;
+}
+.blog_0_text{
+    font-size: 14px;
+    line-height: 120%;
+}
+.card_title{
+    margin-top: 30px;
+    font-size: 18px;
+    line-height: 120%;
+    }
+    .card_text{
+        margin: 10px 0 33px 0;
+        font-size: 14px;
+        line-height: 110%;
+    }
+
+    .ob{
+        margin-bottom: 80px;
+    }
+    .logo{
+        margin-bottom: 10px;
+        }
+
 }
 @media (max-width:580px){
     .first-block_title{
         font-size: 45px;
 }
+.cols{
+    justify-content: space-between;
+   
+}
+
 
 .first{
     padding: 0 0 40px 0;
@@ -69,7 +126,7 @@
 
 /* ------card------ */
 
-@media (max-width:992px){
+/* @media (max-width:992px){
     .blog_0{
        
         padding: 80px 0 50px 0;
@@ -107,7 +164,7 @@
             font-size: 14px;
             line-height: 110%;
         }
-}
+} */
 /* --------------------canada  img--------------------- */
 
 @media (max-width:1111px){
@@ -135,6 +192,12 @@
     body{
         font-size: 14px;
         line-height: 120%;
+    }
+    .ob{
+        margin-bottom: 35px;
+    }
+    .cols{
+        padding: 40px 0 40px 0;
     }
 }
 /* ------footer-------------- */
