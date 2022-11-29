@@ -59,8 +59,8 @@ line-height: 150%;
     color: rgb(255, 255, 255);
     border: none;
     cursor: pointer;
-    box-shadow: 0 9px rgba(0, 0, 0, 0.066);
-    transition: 0.01s;
+    box-shadow: 0 9px rgba(0, 0, 0, 0.142);
+    transition: 0.1s;
 }
 .btn:active{
     background: rgb(216, 10, 10);
