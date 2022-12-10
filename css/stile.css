@@ -149,9 +149,15 @@ line-height: 150%;
 }
 .second_img{
     min-width: 100%;
+    border-radius: 10px;
 }
 .carousel{
     max-width: 262px;
+    transition: 0.5s;
+}
+.carousel:hover{
+      background: #252b2d1b;
+      border-radius: 10px;
 }
 .carousel_icons{
     display: flex;
