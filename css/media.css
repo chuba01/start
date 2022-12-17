@@ -27,9 +27,7 @@
     flex-wrap: wrap;
     gap: 30px;
 }
-
-
-
+/* ------- humburger------------- */
 }
 
 @media (max-width:700px){
@@ -112,56 +110,23 @@
     font-size: 14px;
 }
 }
-@media (max-width:450px){
+@media (max-width:500px){
     .nav{
         width: 100vw;
     }
     .navbar_btn{
         display: none;
     }
+    .flex_cards{
+        gap: 5px;
+    }
+    .flex_card{
+   padding-left: 20px;
+       
+    }
 }
 
-/* ------card------ */
 
-/* @media (max-width:992px){
-    .blog_0{
-       
-        padding: 80px 0 50px 0;
-    }
-    .second_title{
-    
-        font-size: 36px;
-        margin-bottom: 15px;
-    }
-
-    .second_text{
-        font-size: 16px;
-    }
-}
-@media (max-width:700px){
-    .blog_0{
-       
-        padding: 40px 0 40px 0;
-    }
-    .blog_0_title{
-        font-size: 28px;
-     margin-bottom: 10px;
-    }
-    .blog_0_text{
-        font-size: 14px;
-        line-height: 120%;
-    }
-    .card_title{
-        margin-top: 30px;
-        font-size: 18px;
-        line-height: 120%;
-        }
-        .card_text{
-            margin: 10px 0 33px 0;
-            font-size: 14px;
-            line-height: 110%;
-        }
-} */
 /* --------------------canada  img--------------------- */
 
 @media (max-width:1111px){
@@ -197,4 +162,3 @@
         padding: 40px 0 40px 0;
     }
 }
-/* ------footer-------------- */
